@@ -1,0 +1,487 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+
+header{
+    height: 505px;
+    width: 100%;
+    max-width: 428px;
+    background-image: url('./images/header-img.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+    
+    
+    
+}
+
+.layout{
+    height: 366px;
+    max-width: 100%;
+   
+    margin-right: 24px;
+    padding: 0 24px 0 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    
+   
+}
+.title{
+    max-width:278px;
+    height: 64px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Luckiest Guy", cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+}
+.layout p{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Open Sans", sans-serif;
+    height: 132px;
+    max-width:381px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 16px;
+}
+
+.buttons button{
+    max-width: 381px;
+    border: none;
+    border-radius: 28px;
+    font-family:"Open Sans", sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn-1{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(35, 39, 42, 1);
+    height: 54px;
+}
+.btn-2{
+    background-color:rgba(35, 39, 42, 1);
+    color:  rgba(255, 255, 255, 1);
+    height: 52px;
+}
+
+.section-1{
+    height: 573px;
+    width: 100%;
+    max-width: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 27px;
+}
+.section-1__image img{
+    max-width: 379px;
+    height: 252px;
+}
+.section-1 h2{
+    max-width: 370px;
+    height: 99px;
+    font-family:"Open Sans", sans-serif  ;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+    color: rgba(35, 39, 42, 1);
+}
+.section-1 p{
+    max-width:378px;
+    height: 88px;
+    font-family:"Open Sans", sans-serif  ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    align-self: center;
+    text-align: left;
+     color: rgba(35, 39, 42, 1);
+}
+
+.section-2{
+    height:507px;
+    width: 100%;
+    max-width: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 27px;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.section-2__image img{
+    max-width: 379px;
+    height: 252px;
+}
+.section-2 h2{
+    max-width:370px;
+    height: 33px;
+    font-family:"Open Sans", sans-serif  ;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+     color: rgba(35, 39, 42, 1);
+    
+}
+.section-2 p{
+    max-width: 378px;
+    height: 88px;
+    font-family:"Open Sans", sans-serif  ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    align-self: center;
+    text-align: left;
+    color: rgba(35, 39, 42, 1);
+}
+
+.section-3{
+    height:507px;
+   
+    width: 100%;
+    max-width: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 27px;
+}
+.section-3__image img{
+    max-width: 379px;
+    height: 252px;
+}
+.section-3 h2{
+    max-width: 373px;
+    height: 33px;
+    font-family:"Open Sans", sans-serif  ;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 100%;
+     color: rgba(35, 39, 42, 1);
+    
+}
+.section-3 p{
+    max-width: 378px;
+    height: 88px;
+    font-family:"Open Sans", sans-serif  ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    align-self: center;
+    text-align: left;
+    color: rgba(35, 39, 42, 1);
+}
+
+.section-4{
+    height:560px;
+    width: 100%;
+    max-width: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 27px;
+    background-color: rgba(246, 246, 246, 1);
+}
+.section-4__image img{
+    max-width: 379px;
+    height: 252px;
+}
+.section-4 h2{
+    max-width:376px;
+    height: 64px;
+    font-family: "Luckiest Guy", cursive;;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    color: rgba(35, 39, 42, 1);
+    text-align: left;
+    margin-left: 27px;
+    
+}
+.section-4 p{
+    max-width: 378px;
+    height: 88px;
+    font-family:"Open Sans", sans-serif  ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    align-self: center;
+    text-align: left;
+    color: rgba(35, 39, 42, 1);
+}
+footer{
+    max-width: 429px;
+    width: 100%;
+    height: 140px;
+    background: rgba(35, 39, 42, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    max-width: 162px;
+    height: 45px;
+}
+.section-1,
+.section-2,
+.section-3,
+.section-4{
+    flex: 1 1 auto;
+}
+
+@media (max-width:424px) {
+.buttons{
+    display: flex;
+    margin-top:100px;
+}
+}
+@media (min-width:576px){
+    header,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4
+    {
+    height: 505px;
+    width: 100vw;
+    max-width: 767px;
+}
+footer{
+    height: 45px;
+    width: 100vw;
+    max-width: 767px;
+}
+
+}
+
+@media (min-width:768px){
+
+
+
+header,
+.section-1,
+.section-2,
+.section-3,
+.section-4
+{
+    height: 505px;
+    width: 100%;
+    max-width: 1279px;
+}
+footer{
+    height: 45px;
+    width: 100%;
+    max-width: 1279px;
+}
+.section-1{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 64px;
+    grid-template-areas:
+   ". . . ."
+    ". image title ."
+    ". image text ."
+    ". . . ."
+    ;
+    justify-content: center;
+    text-align: center;
+
+}
+.section-1__image{
+    grid-area: image;
+    margin-top: 80px;
+}
+.section-1 h2{
+    grid-area: title;
+    margin-top: 0;
+    text-align: left;
+}
+.section-1 p{
+    grid-area: text;
+    margin-top: -140px;
+    
+}
+
+.section-2{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 64px;
+    grid-template-areas:
+    ". . . ."
+    ". title image ."
+    ". text image ."
+    ". . . ."
+    ;
+    justify-content: center;
+    text-align: center;
+
+}
+.section-2__image{
+    grid-area: image;
+    margin-top: 80px;
+}
+.section-2 h2{
+    grid-area: title;
+    margin-top: 120px;
+    text-align: left;
+}
+.section-2 p{
+    grid-area: text;
+    margin-top: -160px;
+    
+}
+
+.section-3{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 64px;
+    grid-template-areas:
+   ". . . ."
+    ". image title ."
+    ". image text ."
+    ". . . ."
+    ;
+    justify-content: center;
+    text-align: center;
+
+}
+.section-3__image{
+    grid-area: image;
+    margin-top: 80px;
+}
+.section-3 h2{
+    grid-area: title;
+    margin-top: 30px;
+    text-align: left;
+}
+.section-3 p{
+    grid-area: text;
+    margin-top: -230px;
+    
+    
+}
+.section-4{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section-4 p{
+   max-width: 700px;
+}
+}
+
+@media (min-width:1280px){
+    header{
+        min-width: 1280px;
+        width: 100%;
+        height: 449px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        width:313px;
+        text-align: center;
+        align-self: center;
+    }
+    header p{
+        min-width: 757px;
+    }
+    .buttons{
+        flex-direction: row;
+        flex: 1;
+    }
+
+    .btn-1{
+     width: 205px;
+     height: 44px;
+    }
+    .btn-2{
+     width: 281px;
+     height: 44px;
+    }
+
+    main{
+        position: relative;
+    }
+
+    .section-1__image{
+        position: absolute;
+        width: 607px;
+        height: 394px;
+        left: 140px;
+        top: -40px;
+        
+    }
+
+
+        .section-1 h2{
+        position: absolute;
+        top: 10px;
+        left: 623px;
+        height: 270px;
+        width: 329px;
+        font-size: 40px;
+        font-weight: 800px;
+        line-height: 100%;
+        
+
+    }
+        .section-1 p{
+        position: absolute;
+        top: 356px;
+        left: 623px;
+        height: 88px;
+        width: 348px;
+        font-size: 16px;
+
+    }
+
+    .section-2 h2{
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    .section-2 p{
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+
+    .section-3 h2{
+        font-size: 40px;
+    }
+
+        .section-3 p{
+        margin-top: -120px;
+    }
+    
+
+}
